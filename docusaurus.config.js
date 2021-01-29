@@ -146,7 +146,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} 峰华 (张旭乾) Built with Docusaurus.<p>冀ICP备14007097号-3</p>`,
+      copyright: `Copyright © ${new Date().getFullYear()} 承苏凯 (承苏凯) Built with Docusaurus.<p>冀ICP备14007097号-3</p>`,
     },
     prism: {
       darkTheme: require("prism-react-renderer/themes/vsDark"),
@@ -177,7 +177,7 @@ module.exports = {
           feedOptions: {
             type: "all",
             title: "承苏凯的博客",
-            copyright: `Copyright © ${new Date().getFullYear()} 苏凯 (承苏凯sfds) Built with Docusaurus.<p>冀ICsdfsP备14007097号-3</p>`,
+            copyright: `Copyright © ${new Date().getFullYear()} 苏凯 (承苏凯) Built with Docusaurus.<p>冀IC备14007097号-3</p>`,
           },
         },
         theme: {
