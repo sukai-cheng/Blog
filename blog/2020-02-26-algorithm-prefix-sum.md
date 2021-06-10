@@ -31,7 +31,7 @@ const int N = 1e6+10;
 int a[N];
 
 int main(){
-	
+
 	int n; cin >> n;
 	int res = 0;
 	for(int i = 1; i <= n; i++){
@@ -48,7 +48,7 @@ int main(){
 		res = s[r] - s[l-1];
 		cout << res;
 	}
-	
+
 	return 0;
 }
 ```
@@ -69,7 +69,7 @@ int arr[1010][1010];
 int s[1010][1010];
 
 int main(){
-	
+
 	int n, m, q,res;
 	int x1,x2,y1,y2;
 	scanf("%d%d%d",&n,&m,&q);
@@ -83,7 +83,7 @@ int main(){
 			s[i][j] = s[i-1][j]+s[i][j-1]-s[i-1][j-1]+arr[i][j];
 		}
 	}
-	
+
 	while(q--){
 		scanf("%d%d%d%d",&x1,&y1,&x2,&y2);
 		res = s[x2][y2] - s[x1-1][y2] - s[x2][y1-1] + s[x1-1][y1-1];
