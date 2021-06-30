@@ -6,7 +6,7 @@ module.exports = {
   titleDelimiter: "-",
   url: "https://www.zxuqian.cn",
   baseUrl: "/",
-  favicon: "img/favicon.ico",
+  favicon: "img/dute_favicon_32x32.ico",
   organizationName: "sukai-cheng", // Usually your GitHub org/user name.
   projectName: "zxuqian.cn", // Usually your repo name.
   stylesheets: ["https://fonts.font.im/css?family=Raleway:500,700"],
@@ -25,7 +25,7 @@ module.exports = {
           position: "right",
           items: [
             {
-              label: "后端",
+              label: "前端",
               to: "tags/前端",
             },
             {
